@@ -45,7 +45,7 @@ plot4 <- function() {
         png(file = "plot4.png")
         ## set up layout for 2x2 graphs
         par(mfrow = c(2,2))
-        par(mar = c(5,4,3,2))
+        par(mar = c(4,4,3,2))
         par(oma = c(2,2,1,1))
         
         ## Global Active Power vs Time
